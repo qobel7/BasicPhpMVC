@@ -18,7 +18,4 @@ class tables {
     );
 }
 
-
-
-/** Albaraka Efsane Kadro Analiz query */
 ?>
