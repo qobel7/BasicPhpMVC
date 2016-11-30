@@ -3,8 +3,10 @@
 class Controller extends CK_Controller{
     function __construct() {
     }
-    private function create($truncate_table_name, $insert_table_name) {
-        return null;
+    private function create() {
+        $this->load->model("ExampleModel.php");
+        $model = new ExampleModel();
+        $this->view->loadView("home.php",$model->exampleQuery());
     }
 }
 
