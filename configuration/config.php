@@ -1,17 +1,19 @@
 <?
+// Example connection properties
 class Mysql_Connection{
-    const localhost = 'localhost';
-    const user = 'root';
+    const localhost = '';
+    const user = '';
     const password = '';
-    const database = 'pv_albaraka';
+    const database = '';
 }
+// Example table names.
 class tables {
-    const analiz = 'log_analiz';
-    const worker_analiz = 'worker_analiz';
-    const costumer_analiz = 'sss';
-    const logs = 'log_sum';
-    const log1 = 'log1';
-    const log2 = 'log2';
+    const analiz = '';
+    const worker_analiz = '';
+    const costumer_analiz = '';
+    const logs = '';
+    const log1 = '';
+    const log2 = '';
     public static $tables = array(
         tables::analiz, tables::worker_analiz, tables::costumer_analiz,
         tables::logs
