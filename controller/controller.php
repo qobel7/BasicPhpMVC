@@ -6,7 +6,7 @@ class Controller extends CK_Controller{
     private function create() {
         $this->load->model("ExampleModel.php");
         $model = new ExampleModel();
-        $this->view->loadView("home.php",$model->exampleQuery());
+        $this->view->loadView("home",$model->exampleQuery());
     }
 }
 
