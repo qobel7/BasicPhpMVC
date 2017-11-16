@@ -1,11 +1,6 @@
 <?php
 
-/**
- * Created by IntelliJ IDEA.
- * User: salih
- * Date: 23/07/15
- * Time: 14:52
- */
+
 class Load {
     function __construct() {
     }
